@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".FragmentWasabiPlaylist"
+    tools:ignore="WebViewLayout">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suma algo a la Playlist"
+        android:textSize="20dp"
+        android:backgroundTint="#13E91D"
+        android:textColor="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:background="#A29F9F"
+        android:gravity="center_horizontal"
+        />
+
+    <WebView
+        android:id="@+id/webViewPlaylist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#13E91D"
+        android:layout_marginTop="27dp"
+        android:overScrollMode="ifContentScrolls" />
+
+
+</FrameLayout>
